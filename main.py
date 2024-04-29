@@ -7,7 +7,7 @@ import os
 
 
 core = os.cpu_count()
-genai.configure(api_key="AIzaSyCpBB_5BjbbekcAaCiU2q1wIi4mBmL-h-g") 
+genai.configure(api_key="YOUR_API_KEY_HERE") #link: https://ai.google.dev/
 
 model_whisper = WhisperModel('tiny.en', 
                 compute_type="int8",
